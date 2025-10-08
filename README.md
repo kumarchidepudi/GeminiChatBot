@@ -166,7 +166,3 @@ The project includes a basic Spring Boot test skeleton under `src/test/java`.
 - Add authentication and rate-limiting for endpoints.
 - Make the model and prompt templating configurable via properties or a small UI.
 - Add request/response DTOs and JSON endpoints if you prefer structured responses instead of plain text.
-
-## License
-
-This repository contains example/demo code. Add a license that fits your needs (e.g. MIT, Apache-2.0). If you want, I can add a `LICENSE` file for you — tell me which license you prefer.
