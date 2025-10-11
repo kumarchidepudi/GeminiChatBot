@@ -66,7 +66,7 @@ public class AIChatController {
         for (String chat : chatHistory) {
             stringBuilder.append(chat).append("\n");
         }
-        String responseFromTheBot = ollamaClient.prompt()
+        String responseFromTheBot = getClient(model).prompt()
                 .user(prompt)
                 .system("You are an concise and precise assistant.")
                 .system("Keep your answers short and to the point.")
