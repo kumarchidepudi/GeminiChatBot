@@ -1,4 +1,4 @@
-# GeminiChatBot
+# AIChatBot
 
 A minimal Spring Boot demo that uses Spring AI's Google GenAI (Gemini) model to provide simple chatbot endpoints.
 
